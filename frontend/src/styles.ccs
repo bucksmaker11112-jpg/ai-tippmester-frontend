@@ -1,0 +1,35 @@
+body {
+  background: linear-gradient(180deg, #0b0f14 0%, #11161d 100%);
+  color: #d4faff;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  color: #7efc94;
+  text-shadow: 0 0 8px #00ff80;
+}
+
+button {
+  background: linear-gradient(90deg, #00ff99, #00cc66);
+  border: none;
+  color: #0b0f14;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #00ff80;
+  transition: transform 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #00ff80;
+}
+
+.card {
+  background: rgba(18, 22, 28, 0.85);
+  border: 1px solid #00ff80;
+  border-radius: 16px;
+  padding: 1rem;
+  box-shadow: 0 0 12px rgba(0, 255, 128, 0.2);
+}
