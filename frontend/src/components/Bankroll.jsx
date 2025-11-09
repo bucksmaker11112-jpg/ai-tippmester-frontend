@@ -1,0 +1,1 @@
+export default function Bankroll(){ return (<div style={{padding:12,borderRadius:14,background:'#0f141b'}}>Bankroll (demo)</div>); }

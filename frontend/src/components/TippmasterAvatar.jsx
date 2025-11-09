@@ -1,0 +1,1 @@
+export default function TippmasterAvatar(){ return (<div style={{padding:12,borderRadius:14,background:'#121821'}}>Tippmester AI</div>); }

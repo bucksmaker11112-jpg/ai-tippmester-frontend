@@ -1,0 +1,1 @@
+import {useState} from 'react'; export default function ChatPanel(){ const [q,setQ]=useState(''); return (<div style={{padding:12,borderRadius:14,background:'#0f141b'}}><input value={q} onChange={e=>setQ(e.target.value)} placeholder='Kérdezz...' style={{width:'100%'}}/></div>); }

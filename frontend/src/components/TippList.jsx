@@ -1,0 +1,1 @@
+export default function TippList(){ return (<div style={{padding:12,borderRadius:14,background:'#0f141b'}}>Mai listás tippek (demo)</div>); }
